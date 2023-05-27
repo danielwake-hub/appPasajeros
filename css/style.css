@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =================INICIO================= */
+.bg {
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* =================REGISTRARSE================= */
+.registro {
+    background-image: url(../img/registro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 120vh;
+}
+
+/* =================RECUPERAR-CONTRASEÑÁ================= */
+.recuperar {
+    background-image: url(../img/recuperar.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* =================VER-VIAJES================= */
+.viajes {
+    background-image: url(../img/viaje.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   min-height: 100vh;
+}
+
+.ver_back {
+    background: rgba(40, 40, 40, 0.9);
+    color: white;
+}
+
+
+
+
+
+

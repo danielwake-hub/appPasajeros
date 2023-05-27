@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="viajes">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="row align-items-center">
+          <div class="col-6"><a type="submit" class="btn btn-danger" href="ver-viajes.html">Regresar</a></div>
+          <div class="col-6 text-start text-white"><h2 class="fw-bold">Haz Tu Reserva</h2></div>
+        </div>
+      </div>
+
+      <div class="col-12 text-center ver_back py-3 mb-3">
+        <form action="#">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <label for="destino" class="form-label">Destino</label>
+              <input class="form-control" type="text" name="destino" value="Veracruz" readonly>
+            </div>
+            <div class="col-md-4">
+              <label for="fecha" class="form-label">Fecha de Salida</label>
+              <input type="datetime" class="form-control" name="fecha" value="10/05/2023 10:00 a. m." readonly>
+            </div>
+            <div class="col-md-4">
+              <label for="fecha" class="form-label">Asientos Disponibles</label>
+              <select class="form-select" aria-label="Disabled select example" >
+                <option selected disabled>Seleccionar Asiento</option>
+                <option value="1">A5</option>
+                <option value="2">D15</option>
+                <option value="3">M20</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <a type="submit" class="btn btn-primary" href="tu-viaje.html">Reservar Viaje</a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+    
+    <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
