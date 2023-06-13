@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="viajes">
+
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-12 mb-3 py-3">
+        <div class="row align-items-center">
+          <div class="col-6"><a type="submit" class="btn btn-danger" href="index.html">Cerrar Sesión</a></div>
+          <div class="col-6 text-start text-white"><h1 class="fw-bold">Ver Viajes</h1></div>
+        </div>
+      </div>
+
+      <div class="col-12 text-center ver_back py-3 mb-3">
+        <form action="#">
+          <div class="row g-3">
+            <div class="col-md-3">
+              <label for="destino" class="form-label">Salida</label>
+              <input class="form-control" type="text" name="destino" value="Villahermosa" readonly>
+            </div>
+            <div class="col-md-3">
+              <label for="destino" class="form-label">Destino</label>
+              <input class="form-control" type="text" name="destino" value="Veracruz" readonly>
+            </div>
+            <div class="col-md-3">
+              <label for="fecha" class="form-label">Fecha de Salida</label>
+              <input type="datetime" class="form-control" name="fecha" value="Martes 13 de JUnio 10:00 a. m." readonly>
+            </div>
+            <div class="col-md-3">
+              <label for="fecha" class="form-label">Asientos Disponibles</label>
+              <input type="text" class="form-control" name="fecha" value="4" readonly>
+            </div>
+            <div class="col-12">
+              <a type="submit" class="btn btn-primary" href="reservar-viaje.html">Ver informacion</a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-12 text-center ver_back py-3 mb-3">
+        <form action="#">
+          <div class="row g-3">
+            <div class="col-md-3">
+              <label for="destino" class="form-label">Salida</label>
+              <input class="form-control" type="text" name="destino" value="Villahermosa" readonly>
+            </div>
+            <div class="col-md-3">
+              <label for="destino" class="form-label">Destino</label>
+              <input class="form-control" type="text" name="destino" value="Chiapas" readonly>
+            </div>
+            <div class="col-md-3">
+              <label for="fecha" class="form-label">Fecha de Salida</label>
+              <input type="datetime" class="form-control" name="fecha" value="Miercoles 14 de JUnio 6:30 p. m." readonly>
+            </div>
+            <div class="col-md-3">
+              <label for="fecha" class="form-label">Asientos Disponibles</label>
+              <input type="text" class="form-control" name="fecha" value="3" readonly>
+            </div>
+            <div class="col-12">
+              <a type="submit" class="btn btn-primary" href="reservar-viaje.html">Ver informacion</a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-12 text-center ver_back py-3 mb-3">
+        <form action="#">
+          <div class="row g-3">
+            <div class="col-md-3">
+              <label for="destino" class="form-label">Salida</label>
+              <input class="form-control" type="text" name="destino" value="Villahermosa" readonly>
+            </div>
+            <div class="col-md-3">
+              <label for="destino" class="form-label">Destino</label>
+              <input class="form-control" type="text" name="destino" value="Merida" readonly>
+            </div>
+            <div class="col-md-3">
+              <label for="fecha" class="form-label">Fecha de Salida</label>
+              <input type="datetime" class="form-control" name="fecha" value="Jueves 15 de JUnio 4:00 p. m." readonly>
+            </div>
+            <div class="col-md-3">
+              <label for="fecha" class="form-label">Asientos Disponibles</label>
+              <input type="text" class="form-control" name="fecha" value="2" readonly>
+            </div>
+            <div class="col-12">
+              <a type="submit" class="btn btn-primary" href="reservar-viaje.html">Ver informacion</a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div> -->
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-12 mb-3">
+        <h1 class="fw-bold text-white">Ver Viajes</h1>
+      </div>
+      <div class="col-12 text-start mb-3">
+        <a href="viajesReservados.html" class="btn btn-dark">Viajes reservados</a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="img/veracruz.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Salida</h5>
+            <p class="card-text">Villahermosa</p>
+            <h5 class="card-title">Destino</h5>
+            <p class="card-text">Veracruz</p>
+            <h5 class="card-title">Fecha de Salida</h5>
+            <p class="card-text">Martes 13 de JUnio 10:00 a. m.</p>
+            <h5 class="card-title">Asientos Disponibles</h5>
+            <p class="card-text">4</p>
+            <a href="reservarViaje.html" class="btn btn-primary">Ver infromación</a>
+          </div>
+        </div> 
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="img/chiapas.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Salida</h5>
+            <p class="card-text">Villahermosa</p>
+            <h5 class="card-title">Destino</h5>
+            <p class="card-text">Chiapas</p>
+            <h5 class="card-title">Fecha de Salida</h5>
+            <p class="card-text">Miercoles 14 de JUnio 2:00 p. m.</p>
+            <h5 class="card-title">Asientos Disponibles</h5>
+            <p class="card-text">3</p>
+            <a href="reservarViaje.html" class="btn btn-primary">Ver infromación</a>
+          </div>
+        </div> 
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="img/merida.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Salida</h5>
+            <p class="card-text">Villahermosa</p>
+            <h5 class="card-title">Destino</h5>
+            <p class="card-text">Mérida</p>
+            <h5 class="card-title">Fecha de Salida</h5>
+            <p class="card-text">Jueves 15 de JUnio 4:00 p. m.</p>
+            <h5 class="card-title">Asientos Disponibles</h5>
+            <p class="card-text">2</p>
+            <a href="reservarViaje.html" class="btn btn-primary">Ver infromación</a>
+          </div>
+        </div> 
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="img/puebla.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Salida</h5>
+            <p class="card-text">Villahermosa</p>
+            <h5 class="card-title">Destino</h5>
+            <p class="card-text">Puebla</p>
+            <h5 class="card-title">Fecha de Salida</h5>
+            <p class="card-text">Viernes 16 de JUnio 6:00 p. m.</p>
+            <h5 class="card-title">Asientos Disponibles</h5>
+            <p class="card-text">1</p>
+            <a href="reservarViaje.html" class="btn btn-primary">Ver infromación</a>
+          </div>
+        </div> 
+      </div>
+      <div class="col-12 mt-3">
+        <a type="submit" class="btn btn-danger" href="index.html">Cerrar Sesión</a>
+      </div>
+    </div>
+  </div>
+    
+    <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
